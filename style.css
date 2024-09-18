@@ -1,34 +1,28 @@
-/* Menambahkan background warna biru muda */
 .navbar {
-    background-color: #5bc0de; /* Warna biru lembut */
+    background-color: #5bc0de; 
 }
 
-/* Styling untuk link navbar */
 .navbar-nav .nav-link {
-    color: white; /* Warna teks putih untuk lebih kontras */
+    color: white; 
     padding: 0.75rem;
     font-weight: bold;
 }
 
-/* Hover effect untuk link di navbar */
 .navbar-nav .nav-link:hover {
-    background-color: #31b0d5; /* Biru yang lebih gelap saat hover */
+    background-color: #31b0d5; 
     border-radius: 5px;
 }
 
-/* Styling untuk ikon media sosial */
 .navbar-nav .nav-link i {
     color: white;
     padding: 8px;
     transition: color 0.3s;
 }
 
-/* Hover effect untuk ikon media sosial */
 .navbar-nav .nav-link i:hover {
-    color: #d9d9d9; /* Warna abu-abu terang saat hover */
+    color: #d9d9d9;
 }
 
-/* Mengatur jarak ikon sosial */
 .navbar-nav .nav-link {
     margin-left: 10px;
 }
