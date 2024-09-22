@@ -47,3 +47,10 @@
 .card-body {
     text-align: center; 
 }
+
+.jumbotron {
+    position: relative;
+    background-image: url('assets/slide1.jpg');
+    background-size: cover;
+    background-position: center;
+  }
