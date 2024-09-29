@@ -1,8 +1,15 @@
-$(document).ready(function() {
-    $(".btn-primary").click(function() {
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('#back-to-top').fadeIn();
+        } else {
+            $('#back-to-top').fadeOut();
+        }
+    });
 
-        var cardTitle = $(this).closest(".card-body").find(".card-title").text();
-        
-        alert("Akan Menuju Halaman " + cardTitle);
+    $('#back-to-top').click(function(){
+        $('html, body').animate({scrollTop: 0}, 600);
+        return false;
     });
 });
+
