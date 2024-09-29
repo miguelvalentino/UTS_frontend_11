@@ -14,3 +14,7 @@ $(document).ready(function(){
     });
 });
 
+//popup iklan 
+$(document).ready(function() {
+    $('#welcomeModal').modal('show');
+  });
