@@ -47,7 +47,7 @@ body{
 }
 
 .card {
-    margin: 20px; 
+    margin: 20px;
 }
 
 .card-row {
@@ -98,8 +98,9 @@ h5 {
 }
 
 .container {
-    background-color: antiquewhite;
+    background-color: white;
     padding-bottom: 150px;
+    text-align: left;
 }
 .tips-container {
     margin-left: auto;
