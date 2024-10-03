@@ -18,3 +18,13 @@ $(document).ready(function(){
 $(document).ready(function() {
     $('#welcomeModal').modal('show');
   });
+
+//buat search bar
+$(document).ready(function(){
+    $(".search input").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $(".container-3 .col").filter(function() {
+            $(this).toggle($(this).find('.card-title').text().toLowerCase().indexOf(value) > -1);
+        });
+    });
+});

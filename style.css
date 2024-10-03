@@ -70,6 +70,12 @@ body{
     background-position: center;
 }
 
+.jumbotron-1 {
+    position: relative;
+    background-image: url('assets/jumbotron.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
 
 h1 {
     text-align: center;
@@ -202,4 +208,9 @@ table, th, td {
     .large-image {
         max-width: 120%;
     }
+}
+
+.search{
+    margin-left: 250px;
+    margin-right: 250px;
 }
