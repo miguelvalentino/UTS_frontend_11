@@ -4,15 +4,15 @@
     padding: 0;
 }
 
-.navbar {
-    background-color: #5bc0de; 
-}
-
-body{
+body {
     text-align: center;
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #5bc0de; 
 }
 
 .navbar-nav .nav-link {
@@ -63,26 +63,21 @@ body{
     text-align: center;
 }
 
-.jumbotron {
+.jumbotron, .jumbotron-1 {
     position: relative;
-    background-image: url('assets/slide1.jpg'); 
     background-size: cover;
     background-position: center;
+}
+
+.jumbotron {
+    background-image: url('assets/slide1.jpg');
 }
 
 .jumbotron-1 {
-    position: relative;
-    background-image: url('assets/jumbotron.jpg'); 
-    background-size: cover;
-    background-position: center;
+    background-image: url('assets/jumbotron.jpg');
 }
 
-h1 {
-    text-align: center;
-    padding-top: 20px;
-}
-
-h2 {
+h1, h2 {
     text-align: center;
     padding-top: 20px;
 }
@@ -108,6 +103,7 @@ h5 {
     padding-bottom: 150px;
     text-align: left;
 }
+
 .tips-container {
     margin-left: auto;
     margin-right: auto;
@@ -116,6 +112,10 @@ h5 {
 
 header, footer {
     padding: 10px;
+    text-align: center;
+}
+
+footer {
     text-align: center;
 }
 
@@ -152,22 +152,6 @@ header, footer {
     order: -1; 
 }
 
-footer {
-    text-align: center;
-}
-
-@media (max-width: 768px) {
-    .content {
-        flex-direction: column;
-    }
-
-    .sidebar-left,
-    .sidebar-right {
-        width: 100%;
-        order: 0;
-    }
-}
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -185,22 +169,19 @@ table, th, td {
     display: none;
 }
 
-.img-fluid{
+.img-fluid {
     height: 200px;
     object-fit: cover;
 }
 
-.popupads{
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    object-fit: contain;
-}
-
+.popupads,
 .large-image {
     max-width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+.large-image {
     border-radius: 10px;
 }
 
@@ -210,11 +191,37 @@ table, th, td {
     }
 }
 
-.search{
+.search {
     margin-left: 250px;
     margin-right: 250px;
 }
 
 .typing{
     color: black;
+}
+
+#Review h2 {
+    text-align: center; 
+}
+
+#Review blockquote {
+    text-align: justify; 
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+#Review .blockquote-footer {
+    text-align: left; 
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .sidebar-left,
+    .sidebar-right {
+        width: 100%;
+        order: 0;
+    }
 }
