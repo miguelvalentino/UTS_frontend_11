@@ -196,6 +196,10 @@ table, th, td {
     margin-right: 250px;
 }
 
+.typing{
+    color: black;
+}
+
 #Review h2 {
     text-align: center; 
 }
