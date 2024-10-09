@@ -32,7 +32,7 @@ $(document).ready(function(){
 //buat animasi text
 $(document).ready(function(){
     let typed = new Typed('.typing', {
-        strings : ['selamat datang di Makmursehat'],
+        strings : ['Selamat datang di Makmur Sehat'],
         typeSpeed : 100,
         backSpeed : 60,
         loop : true
