@@ -214,3 +214,25 @@ table, th, td {
     margin-left: 250px;
     margin-right: 250px;
 }
+
+
+/* Animasi teks pada section About Us */
+.text-animate {
+    opacity: 0;
+    position: relative;
+}
+
+.text-animate.appear {
+    animation: fadeSlideIn 1.5s forwards;
+}
+
+@keyframes fadeSlideIn {
+    0% {
+        opacity: 0;
+        top: 20px;
+    }
+    100% {
+        opacity: 1;
+        top: 0;
+    }
+}

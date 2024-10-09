@@ -28,3 +28,20 @@ $(document).ready(function(){
         });
     });
 });
+
+$(document).ready(function(){
+    // Animasi muncul ketika halaman di-scroll atau saat halaman dimuat
+    $(window).scroll(function() {
+        $('.text-animate').each(function() {
+            var elementPosition = $(this).offset().top;
+            var scrollPosition = $(window).scrollTop() + $(window).height();
+            if (scrollPosition > elementPosition) {
+                $(this).addClass('appear');
+            }
+        });
+    });
+    
+    // Trigger animasi ketika halaman di-load
+    $(window).trigger('scroll');
+});
+
