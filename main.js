@@ -28,3 +28,40 @@ $(document).ready(function(){
         });
     });
 });
+
+//buat animasi text
+$(document).ready(function(){
+    let typed = new Typed('.typing', {
+        strings : ['selamat datang di Makmursehat'],
+        typeSpeed : 100,
+        backSpeed : 60,
+        loop : true
+    });
+})
+
+$(document).ready(function(){
+    let typed = new Typed('.typing-1', {
+        strings : ['Resep Yang Populer'],
+        typeSpeed : 100,
+        backSpeed : 60,
+        loop : true
+    });
+})
+
+$(document).ready(function(){
+    let typed = new Typed('.typing-2', {
+        strings : ['Tips Hidup Sehat'],
+        typeSpeed : 100,
+        backSpeed : 60,
+        loop : true
+    });
+})
+
+$(document).ready(function(){
+    let typed = new Typed('.typing-3', {
+        strings : ['About Us'],
+        typeSpeed : 100,
+        backSpeed : 60,
+        loop : true
+    });
+})
