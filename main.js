@@ -29,6 +29,7 @@ $(document).ready(function(){
     });
 });
 
+
 $(document).ready(function(){
     // Animasi muncul ketika halaman di-scroll atau saat halaman dimuat
     $(window).scroll(function() {
@@ -44,4 +45,42 @@ $(document).ready(function(){
     // Trigger animasi ketika halaman di-load
     $(window).trigger('scroll');
 });
+
+
+//buat animasi text
+$(document).ready(function(){
+    let typed = new Typed('.typing', {
+        strings : ['Selamat datang di Makmur Sehat'],
+        typeSpeed : 100,
+        backSpeed : 60,
+        loop : true
+    });
+})
+
+$(document).ready(function(){
+    let typed = new Typed('.typing-1', {
+        strings : ['Resep Yang Populer'],
+        typeSpeed : 100,
+        backSpeed : 60,
+        loop : true
+    });
+})
+
+$(document).ready(function(){
+    let typed = new Typed('.typing-2', {
+        strings : ['Tips Hidup Sehat'],
+        typeSpeed : 100,
+        backSpeed : 60,
+        loop : true
+    });
+})
+
+$(document).ready(function(){
+    let typed = new Typed('.typing-3', {
+        strings : ['About Us'],
+        typeSpeed : 100,
+        backSpeed : 60,
+        loop : true
+    });
+})
 
