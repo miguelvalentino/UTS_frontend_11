@@ -213,6 +213,8 @@ table, th, td {
     100% {
         opacity: 1;
         top: 0;
+    }
+}
 
 .typing{
     color: black;
